@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav img {
+    width: 162px;
+    height: 152px;
+}
+
+nav li {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav h1 {
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    z-index: 2;
+}
+
+header {
+    background: url(../images/header_image.jpg) no-repeat top right;
+    background-size: contain;
+    background-color: #A71063;
+    height: 70vh;
+}
+
+.header-title {
+    position: relative;
+}
+
+.header-title img {
+    position: absolute;
+    top: 44px;
+    width: 157px;
+    height: 164px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.header-copy {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background: transparent linear-gradient(90deg, #A71063 0%, #A5085FBE 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+.header-copy img{
+    width: 70%;
+    height: auto;
+}
